@@ -16,7 +16,7 @@ public class StackExample {
 
         // Pop the top element
         int poppedElement = stack.pop();
-        int peekElement = stack.peek(40);  // returns an object from the top of the stack
+        int peekElement = stack.peek();  // returns an object from the top of the stack
         int position = stack.search(20);  //returns the position of the element from the top of the stack
         boolean result = stack.empty();  //whether a stack is empty or not
 
@@ -27,7 +27,7 @@ public class StackExample {
         System.out.println("Stack after pop: " + stack);
         System.out.println("Stack after peek: " + peekElement);
         System.out.println("Stack searching : " + position);
-        System.out.println("Stack searching : " + result);
+        System.out.println("check list is empty or not : " + result);
 
     }
 }
