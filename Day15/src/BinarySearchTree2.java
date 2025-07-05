@@ -56,4 +56,3 @@ public class BinarySearchTree2 {
         bstobj.inorder();
     }
 }
- 
