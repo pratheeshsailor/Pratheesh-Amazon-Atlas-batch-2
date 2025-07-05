@@ -1,95 +1,115 @@
-class TreeNode {
-    int value;
-    TreeNode left, right;
+public class BinarySearchTree {
 
-    TreeNode(int item) {
-        value = item;
-        left = right = null;
-    }
-}
+    // Node class
+    private static class Node {
+        int value;
+        Node left, right;
 
-class BinarySearchTreeOp {
-    TreeNode root;
-
-    // Insert value into BST
-    void insert(int value) {
-        root = insertVal(root, value);
-    }
-
-    TreeNode insertVal(TreeNode node, int value) {
-        if (node == null) {
-            return new TreeNode(value);
+        Node(int v) {
+            value = v;
+            left = right = null;
         }
+    }
+
+    private Node root;
+
+    public BinarySearchTree() {
+        root = null;
+    }
+
+    // Insert into an empty tree
+    public void insertFirst(int value) {
+        if (root != null) {
+            System.out.println("Tree is not empty — use insert(value) instead.");
+            return;
+        }
+        root = new Node(value);
+    }
+
+    // Insert into a non-empty tree
+    public void insert(int value) {
+        if (root == null) {
+            System.out.println("Tree is empty — using insertFirst instead.");
+            insertFirst(value);
+        } else {
+            root = insertRec(root, value);
+        }
+    }
+
+    // Recursive insert helper
+    private Node insertRec(Node node, int value) {
+        if (node == null) return new Node(value);
+
         if (value < node.value) {
-            node.left = insertVal(node.left, value);
+            node.left = insertRec(node.left, value);
         } else if (value > node.value) {
-            node.right = insertVal(node.right, value);
+            node.right = insertRec(node.right, value);
         }
+        // Skip duplicate
         return node;
     }
-    // Inorder Traversal (Left, Root, Right)
-    void inorder() {
+
+    // Inorder Traversal (Left → Root → Right)
+    public void inorderTraversal() {
         System.out.print("Inorder traversal: ");
-        inorderVal(root);
+        inorderRec(root);
         System.out.println();
     }
 
-    void inorderVal(TreeNode node) {
+    private void inorderRec(Node node) {
         if (node != null) {
-            inorderVal(node.left);
+            inorderRec(node.left);
             System.out.print(node.value + " ");
-            inorderVal(node.right);
+            inorderRec(node.right);
         }
     }
-    // Preorder Traversal (Root, Left, Right)
-    void preorder() {
+
+    // Preorder Traversal (Root → Left → Right)
+    public void preorderTraversal() {
         System.out.print("Preorder traversal: ");
-        preorderVal(root);
+        preorderRec(root);
         System.out.println();
     }
-    void preorderVal(TreeNode node) {
+
+    private void preorderRec(Node node) {
         if (node != null) {
             System.out.print(node.value + " ");
-            preorderVal(node.left);
-            preorderVal(node.right);
+            preorderRec(node.left);
+            preorderRec(node.right);
         }
     }
 
-    // Postorder Traversal (Left, Right, Root)
-    void postorder() {
+    // Postorder Traversal (Left → Right → Root)
+    public void postorderTraversal() {
         System.out.print("Postorder traversal: ");
-        postorderVal(root);
+        postorderRec(root);
         System.out.println();
     }
 
-    void postorderVal(TreeNode node) {
+    private void postorderRec(Node node) {
         if (node != null) {
-            postorderVal(node.left);
-            postorderVal(node.right);
+            postorderRec(node.left);
+            postorderRec(node.right);
             System.out.print(node.value + " ");
         }
     }
-}
 
-public class BinarySearchTree {
+
     public static void main(String[] args) {
-        BinarySearchTreeOp bstobj = new BinarySearchTreeOp();
-
-        // Inserting values
-        bstobj.insert(10);
-        bstobj.insert(50);
-        bstobj.insert(40);
-        bstobj.insert(70);
-        bstobj.insert(5);
-
-        // Traversals
-
-        bstobj.inorder();
+        BinarySearchTree bst = new BinarySearchTree();
 
 
-        bstobj.preorder();
+        bst.insertFirst(50);
+        bst.insert(30);
+        bst.insert(70);
+        bst.insert(20);
+        bst.insert(40);
+        bst.insert(60);
+        bst.insert(80);
 
 
-        bstobj.postorder();
+        bst.inorderTraversal();
+        bst.preorderTraversal();
+        bst.postorderTraversal();
     }
 }
