@@ -1,4 +1,4 @@
-*Banking Transaction System*
+#Banking Transaction System#
 
 Day 1 – Requirements
 - Money transfer, audit logs.
@@ -30,7 +30,7 @@ Day 9 – DevOps
 Day 10 – Demo
 - Final banking demo.
 
-** Technologies Used** 
+#Technologies Used3
 
 Component	Technology
 
