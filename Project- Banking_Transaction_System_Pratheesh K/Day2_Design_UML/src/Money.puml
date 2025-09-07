@@ -1,0 +1,35 @@
+@startuml
+class Customer {
+    +customerID: int
+    +name: String
+    +pin: int
+    +validatePIN(inputPin: int): boolean
+}
+
+class Account {
+    +accountID: int
+    +balance: float
+    +deposit(amount: float): void
+    +withdraw(amount: float): void
+}
+
+class Transaction {
+    +transactionID: int
+    +transactionType: String
+    +amount: float
+    +date: Date
+    +executeTransaction(): void
+}
+
+class MoneyTransfer {
+    +transferID: int
+    +fromAccount: int
+    +toAccount: int
+    +amount: float
+    +initiateTransfer(inputPin: int): void
+}
+
+Customer "1" -- "0.*" Account : owns >
+Account "1" -- "0.*" Transaction : records >
+Transaction <|-- MoneyTransfer
+@enduml

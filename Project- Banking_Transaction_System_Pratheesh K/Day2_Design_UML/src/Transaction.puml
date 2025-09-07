@@ -1,0 +1,12 @@
+@startuml
+class Transaction {
+    +transactionID: int
+    +transactionType: String
+    +amount: float
+    +date: Date
+    +executeTransaction(): void
+    +generateReceipt(): void
+}
+
+Account "1" -- "0..*" Transaction : has >
+@enduml

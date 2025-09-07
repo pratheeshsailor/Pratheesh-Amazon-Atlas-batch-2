@@ -1,0 +1,12 @@
+@startuml
+class Customer {
+    +customerID: int
+    +name: String
+    +email: String
+    +phone: String
+    +address: String
+    +register(): void
+    +updateProfile(): void
+}
+
+@enduml

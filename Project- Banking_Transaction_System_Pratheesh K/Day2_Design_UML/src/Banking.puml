@@ -1,0 +1,26 @@
+@startuml
+left to right direction
+actor User
+
+rectangle "Banking Transaction System" {
+  usecase "Register User" as UC1
+  usecase "Manage PIN" as UC2
+  usecase "Deposit Funds" as UC3
+  usecase "Withdraw Funds" as UC4
+  usecase "Transfer Funds" as UC5
+  usecase "View Transaction History" as UC6
+  usecase "Generate Audit Logs" as UC7
+}
+
+User --> UC1
+User --> UC2
+User --> UC3
+User --> UC4
+User --> UC5
+User --> UC6
+
+UC3 --> UC7 : logs
+UC4 --> UC7 : logs
+UC5 --> UC7 : logs
+
+@enduml

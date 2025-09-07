@@ -1,0 +1,31 @@
+@startuml
+class Customer {
+    +customerID: int
+    +name: String
+}
+
+class Account {
+    +accountID: int
+    +balance: float
+}
+
+class Transaction {
+    +transactionID: int
+    +transactionType: String
+    +amount: float
+    +date: Date
+}
+
+class AuditLog {
+    +logID: int
+    +action: String
+    +timestamp: DateTime
+    +userID: int
+    +transactionID: int
+    +recordAction(action: String): void
+}
+
+Customer "1" -- "0..*" Transaction : performs >
+Account "1" -- "0..*" Transaction : contains >
+Transaction "1" -- "0..*" AuditLog : generates >
+@enduml

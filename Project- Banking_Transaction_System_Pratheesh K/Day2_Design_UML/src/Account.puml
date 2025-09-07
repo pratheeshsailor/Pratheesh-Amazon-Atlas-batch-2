@@ -1,0 +1,19 @@
+@startuml
+class Customer {
+    +customerID: int
+    +name: String
+    +email: String
+}
+
+class Account {
+    +accountID: int
+    +accountType: String
+    +balance: float
+    +openAccount(): void
+    +closeAccount(): void
+    +deposit(amount: float): void
+    +withdraw(amount: float): void
+}
+
+Customer "1" -- "0..*" Account : owns
+@enduml
