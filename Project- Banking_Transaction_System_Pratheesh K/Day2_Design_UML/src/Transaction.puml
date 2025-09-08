@@ -1,9 +1,13 @@
 @startuml
 class Transaction {
     +transactionID: int
-    +transactionType: String
+    +date: DateTime
     +amount: float
-    +date: Date
+    +transactionType: String   <<Deposit / Withdrawal / Transfer>>
+    +sourceAccountNumber: int
+    +destinationAccountNumber: int   <<optional>>
+    +status: String   <<Success / Failed>>
+
     +executeTransaction(): void
     +generateReceipt(): void
 }
