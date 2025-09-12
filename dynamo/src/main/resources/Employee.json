@@ -1,0 +1,21 @@
+[
+  {
+    "ID": 1001,
+    "Name": "Pratheesh",
+    "Address": "India",
+    "salary": "4LPA"
+  },
+  {
+    "ID": 1002,
+    "Name": "Arun",
+    "Address": "Australia",
+    "salary": "8LPA"
+  },
+  {
+    "ID": 1003,
+    "Name": "sarath",
+    "Address": "USA",
+    "salary": "6LPA"
+  }
+]
+
