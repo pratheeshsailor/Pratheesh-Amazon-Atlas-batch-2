@@ -1,0 +1,172 @@
+[
+  {
+    "CustomerID": "C1757876123460",
+    "Email": "arun.kumar@bank.com",
+    "Name": "Arun Kumar",
+    "Password": "Arun#TN2025!",
+    "Branch": "Chennai - T. Nagar",
+    "Address": "Chennai, Tamil Nadu",
+    "Contact": "9840012345"
+  },
+  {
+    "CustomerID": "C1757876123461",
+    "Email": "meena.ravi@bank.com",
+    "Name": "Meena Ravi",
+    "Password": "Meena@CBE2025!",
+    "Branch": "Coimbatore - Gandhipuram",
+    "Address": "Coimbatore, Tamil Nadu",
+    "Contact": "9894123456"
+  },
+  {
+    "CustomerID": "C1757876123462",
+    "Email": "suresh.k@bank.com",
+    "Name": "Suresh K",
+    "Password": "Suresh#MDU25!",
+    "Branch": "Madurai - Veli",
+    "Address": "Madurai, Tamil Nadu",
+    "Contact": "9003012345"
+  },
+  {
+    "CustomerID": "C1757876123463",
+    "Email": "poongodi.r@bank.com",
+    "Name": "Poongodi R",
+    "Password": "PoonGodi@TR2025!",
+    "Branch": "Tiruchirappalli - Thillai Nagar",
+    "Address": "Tiruchirappalli, Tamil Nadu",
+    "Contact": "9444012345"
+  },
+  {
+    "CustomerID": "C1757876123464",
+    "Email": "rajesh.n@bank.com",
+    "Name": "Rajesh N",
+    "Password": "Rajesh#SLM25!",
+    "Branch": "Salem - New Fairlands",
+    "Address": "Salem, Tamil Nadu",
+    "Contact": "9500012345"
+  },
+  {
+    "CustomerID": "C1757876123465",
+    "Email": "lakshmi.s@bank.com",
+    "Name": "Lakshmi S",
+    "Password": "Lakshmi@TVL25!",
+    "Branch": "Tirunelveli - Palayamkottai",
+    "Address": "Tirunelveli, Tamil Nadu",
+    "Contact": "9600012345"
+  },
+  {
+    "CustomerID": "C1757876123466",
+    "Email": "vignesh.p@bank.com",
+    "Name": "Vignesh P",
+    "Password": "Vignesh#ERD25!",
+    "Branch": "Erode - Bhavani Road",
+    "Address": "Erode, Tamil Nadu",
+    "Contact": "9700012345"
+  },
+  {
+    "CustomerID": "C1757876123467",
+    "Email": "usha.r@bank.com",
+    "Name": "Usha R",
+    "Password": "Usha@VLR2025!",
+    "Branch": "Vellore - Katpadi",
+    "Address": "Vellore, Tamil Nadu",
+    "Contact": "9750012345"
+  },
+  {
+    "CustomerID": "C1757876123468",
+    "Email": "manoj.k@bank.com",
+    "Name": "Manoj K",
+    "Password": "Manoj#HSR25!",
+    "Branch": "Hosur - SIPCOT",
+    "Address": "Hosur, Tamil Nadu",
+    "Contact": "9850012345"
+  },
+  {
+    "CustomerID": "C1757876123469",
+    "Email": "anitha.j@bank.com",
+    "Name": "Anitha J",
+    "Password": "Anitha@NGC25!",
+    "Branch": "Nagercoil - Vadasery",
+    "Address": "Nagercoil, Tamil Nadu",
+    "Contact": "9950012345"
+  },
+  {
+    "CustomerID": "C1757867245170",
+    "Email": "kumrufn@gmail.com",
+    "Name": "Sarath",
+    "Password": "sa@123456",
+    "Address": "Chennai",
+    "Contact": "8122418110"
+  },
+  {
+    "CustomerID": "C1757867245171",
+    "Email": "revathi.m@bank.com",
+    "Name": "Revathi M",
+    "Password": "Revathi@123",
+    "Address": "Coimbatore",
+    "Contact": "9003214567"
+  },
+  {
+    "CustomerID": "C1757867245172",
+    "Email": "gokul.r@bank.com",
+    "Name": "Gokul R",
+    "Password": "Gokul#2025",
+    "Address": "Madurai",
+    "Contact": "9840152634"
+  },
+  {
+    "CustomerID": "C1757867245173",
+    "Email": "nandhini.s@bank.com",
+    "Name": "Nandhini S",
+    "Password": "Nandhini@321",
+    "Address": "Trichy",
+    "Contact": "7010896532"
+  },
+  {
+    "CustomerID": "C1757867245174",
+    "Email": "karan.v@bank.com",
+    "Name": "Karan V",
+    "Password": "Karan#2025",
+    "Address": "Salem",
+    "Contact": "9790765120"
+  },
+  {
+    "CustomerID": "C1757867245175",
+    "Email": "priya.d@bank.com",
+    "Name": "Priya D",
+    "Password": "Priya@456",
+    "Address": "Tirunelveli",
+    "Contact": "8124557690"
+  },
+  {
+    "CustomerID": "C1757867245176",
+    "Email": "ajay.k@bank.com",
+    "Name": "Ajay K",
+    "Password": "Ajay#789",
+    "Address": "Erode",
+    "Contact": "9487654321"
+  },
+  {
+    "CustomerID": "C1757867245177",
+    "Email": "sandhya.r@bank.com",
+    "Name": "Sandhya R",
+    "Password": "Sandhya@987",
+    "Address": "Vellore",
+    "Contact": "9345098765"
+  },
+  {
+    "CustomerID": "C1757867245178",
+    "Email": "balaji.m@bank.com",
+    "Name": "Balaji M",
+    "Password": "Balaji#555",
+    "Address": "Hosur",
+    "Contact": "9884076543"
+  },
+  {
+    "CustomerID": "C1757867245179",
+    "Email": "kavitha.l@bank.com",
+    "Name": "Kavitha L",
+    "Password": "Kavitha@2025",
+    "Address": "Nagercoil",
+    "Contact": "8012345678"
+  }
+]

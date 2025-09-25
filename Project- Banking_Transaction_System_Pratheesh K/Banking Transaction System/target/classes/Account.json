@@ -1,0 +1,122 @@
+[
+  {
+    "AccountID": "A1757865970647",
+    "CustomerID": "C1757876123460",
+    "AccountType": "Savings",
+    "Balance": 12000.0
+  },
+  {
+    "AccountID": "A1757865970648",
+    "CustomerID": "C1757876123461",
+    "AccountType": "Current",
+    "Balance": 45000.0
+  },
+  {
+    "AccountID": "A1757865970649",
+    "CustomerID": "C1757876123462",
+    "AccountType": "Savings",
+    "Balance": 23000.0
+  },
+  {
+    "AccountID": "A1757865970650",
+    "CustomerID": "C1757876123463",
+    "AccountType": "Current",
+    "Balance": 34000.0
+  },
+  {
+    "AccountID": "A1757865970651",
+    "CustomerID": "C1757876123464",
+    "AccountType": "Savings",
+    "Balance": 18000.0
+  },
+  {
+    "AccountID": "A1757865970652",
+    "CustomerID": "C1757876123465",
+    "AccountType": "Current",
+    "Balance": 56000.0
+  },
+  {
+    "AccountID": "A1757865970653",
+    "CustomerID": "C1757876123466",
+    "AccountType": "Savings",
+    "Balance": 27000.0
+  },
+  {
+    "AccountID": "A1757865970654",
+    "CustomerID": "C1757876123467",
+    "AccountType": "Current",
+    "Balance": 49000.0
+  },
+  {
+    "AccountID": "A1757865970655",
+    "CustomerID": "C1757876123468",
+    "AccountType": "Savings",
+    "Balance": 31000.0
+  },
+  {
+    "AccountID": "A1757865970656",
+    "CustomerID": "C1757876123469",
+    "AccountType": "Current",
+    "Balance": 42000.0
+  },
+  {
+    "AccountID": "A1757865970657",
+    "CustomerID": "C1757867245170",
+    "AccountType": "Savings",
+    "Balance": 15000.0
+  },
+  {
+    "AccountID": "A1757865970658",
+    "CustomerID": "C1757867245171",
+    "AccountType": "Current",
+    "Balance": 38000.0
+  },
+  {
+    "AccountID": "A1757865970659",
+    "CustomerID": "C1757867245172",
+    "AccountType": "Savings",
+    "Balance": 22000.0
+  },
+  {
+    "AccountID": "A1757865970660",
+    "CustomerID": "C1757867245173",
+    "AccountType": "Current",
+    "Balance": 31000.0
+  },
+  {
+    "AccountID": "A1757865970661",
+    "CustomerID": "C1757867245174",
+    "AccountType": "Savings",
+    "Balance": 26000.0
+  },
+  {
+    "AccountID": "A1757865970662",
+    "CustomerID": "C1757867245175",
+    "AccountType": "Current",
+    "Balance": 34000.0
+  },
+  {
+    "AccountID": "A1757865970663",
+    "CustomerID": "C1757867245176",
+    "AccountType": "Savings",
+    "Balance": 29000.0
+  },
+  {
+    "AccountID": "A1757865970664",
+    "CustomerID": "C1757867245177",
+    "AccountType": "Current",
+    "Balance": 47000.0
+  },
+  {
+    "AccountID": "A1757865970665",
+    "CustomerID": "C1757867245178",
+    "AccountType": "Savings",
+    "Balance": 33000.0
+  },
+  {
+    "AccountID": "A1757865970666",
+    "CustomerID": "C1757867245179",
+    "AccountType": "Current",
+    "Balance": 41000.0
+  }
+]

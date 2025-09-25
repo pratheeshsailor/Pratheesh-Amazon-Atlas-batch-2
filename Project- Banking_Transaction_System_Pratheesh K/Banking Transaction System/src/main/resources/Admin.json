@@ -1,0 +1,92 @@
+[
+  {
+    "AdminID": "ADM001",
+    "CustomerID": "C1757876123459",
+    "Email": "arun.kumar@bank.com",
+    "Branch": "Chennai - T. Nagar",
+    "Name": "Arun Kumar",
+    "Password": "Arun#TN2025!",
+    "Contact": "9840012345"
+  },
+  {
+    "AdminID": "ADM002",
+    "CustomerID": "C1757876123460",
+    "Email": "meena.ravi@bank.com",
+    "Branch": "Coimbatore - Gandhipuram",
+    "Name": "Meena Ravi",
+    "Password": "Meena@CBE2025!",
+    "Contact": "9894123456"
+  },
+  {
+    "AdminID": "ADM003",
+    "CustomerID": "C1757876123461",
+    "Email": "suresh.k@bank.com",
+    "Branch": "Madurai - Veli",
+    "Name": "Suresh K",
+    "Password": "Suresh#MDU25!",
+    "Contact": "9003012345"
+  },
+  {
+    "AdminID": "ADM004",
+    "CustomerID": "C1757876123462",
+    "Email": "poongodi.r@bank.com",
+    "Branch": "Tiruchirappalli - Thillai Nagar",
+    "Name": "Poongodi R",
+    "Password": "PoonGodi@TR2025!",
+    "Contact": "9444012345"
+  },
+  {
+    "AdminID": "ADM005",
+    "CustomerID": "C1757876123463",
+    "Email": "rajesh.n@bank.com",
+    "Branch": "Salem - New Fairlands",
+    "Name": "Rajesh N",
+    "Password": "Rajesh#SLM25!",
+    "Contact": "9500012345"
+  },
+  {
+    "AdminID": "ADM006",
+    "CustomerID": "C1757876123464",
+    "Email": "lakshmi.s@bank.com",
+    "Branch": "Tirunelveli - Palayamkottai",
+    "Name": "Lakshmi S",
+    "Password": "Lakshmi@TVL25!",
+    "Contact": "9600012345"
+  },
+  {
+    "AdminID": "ADM007",
+    "CustomerID": "C1757876123465",
+    "Email": "vignesh.p@bank.com",
+    "Branch": "Erode - Bhavani Road",
+    "Name": "Vignesh P",
+    "Password": "Vignesh#ERD25!",
+    "Contact": "9700012345"
+  },
+  {
+    "AdminID": "ADM008",
+    "CustomerID": "C1757876123466",
+    "Email": "usha.r@bank.com",
+    "Branch": "Vellore - Katpadi",
+    "Name": "Usha R",
+    "Password": "Usha@VLR2025!",
+    "Contact": "9750012345"
+  },
+  {
+    "AdminID": "ADM009",
+    "CustomerID": "C1757876123467",
+    "Email": "manoj.k@bank.com",
+    "Branch": "Hosur - SIPCOT",
+    "Name": "Manoj K",
+    "Password": "Manoj#HSR25!",
+    "Contact": "9850012345"
+  },
+  {
+    "AdminID": "ADM010",
+    "CustomerID": "C1757876123468",
+    "Email": "anitha.j@bank.com",
+    "Branch": "Nagercoil - Vadasery",
+    "Name": "Anitha J",
+    "Password": "Anitha@NGC25!",
+    "Contact": "9950012345"
+  }
+]
