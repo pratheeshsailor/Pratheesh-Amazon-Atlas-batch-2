@@ -71,4 +71,4 @@
 
 ## Repository Layout ##
 
-<img width="376" height="353" alt="image" src="https://github.com/user-attachments/assets/f63a0ca3-c7ef-4a4f-b108-decd02df979c" />
+<img width="600" height="350" alt="image" src="https://github.com/user-attachments/assets/f63a0ca3-c7ef-4a4f-b108-decd02df979c" />
