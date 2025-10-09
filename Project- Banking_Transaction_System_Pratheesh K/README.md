@@ -30,6 +30,25 @@
 ## Day 10 – Demo
 - Final banking demo.
 
+# Features #
+Customer model stored in DynamoDB
+
+Account model stored in DynamoDB with minimum balance validation
+
+Deposit / Withdraw / Transfer services with balance updates
+
+Transaction history maintained in DynamoDB and local Stack & Queue
+
+PIN security with SHA-256 hashing
+
+Forgot password and password validation for Admin and Customer
+
+Admin operations: insert, update, delete customers
+
+Unit tests with JUnit 5 and Mockito (no AWS required)
+
+Built with Maven
+
 # Technologies Used #
 
 ## Component	Technology ##
