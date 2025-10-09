@@ -71,34 +71,4 @@
 
 ## Repository Layout ##
 
-BankingTransactionSystem/
-│
-├── pom.xml                     # Maven project file
-├── README.md                   # Project description, setup instructions, features
-│   
-│
-├── resources/                  # Static JSON files for initial data
-│   ├── account.json
-│   ├── admin.json
-│   └── customer.json
-│
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │      └── org/example/
-│   │          ├── BankingSystem.java           # Main entry point
-│   │          ├── CustomerService.java        # Customer operations
-│   │          ├── AccountService.java         # Deposit/withdraw/transfer logic
-│   │          ├── AdminService.java           # Admin operations
-│   │          ├── TransactionStackQueue.java  # Stack & Queue for transactions
-│   │          ├── PinHasher.java              # SHA-256 hashing for PIN
-│   │          └── DynamoDbClientProvider.java # Singleton DynamoDB client
-│   │   
-│   │   
-│   │
-│   └── test/
-│       └── java/
-│           └── org/example/
-│               └── AllTests.java              # Unit tests with JUnit 5 & Mockito
-│
-└── target/                      # Maven build output
+<img width="376" height="353" alt="image" src="https://github.com/user-attachments/assets/f63a0ca3-c7ef-4a4f-b108-decd02df979c" />
