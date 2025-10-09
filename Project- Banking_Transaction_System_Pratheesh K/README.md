@@ -31,41 +31,74 @@
 - Final banking demo.
 
 # Features #
-Customer model stored in DynamoDB
+- Customer model stored in DynamoDB
 
-Account model stored in DynamoDB with minimum balance validation
+- Account model stored in DynamoDB with minimum balance validation
 
-Deposit / Withdraw / Transfer services with balance updates
+- Deposit / Withdraw / Transfer services with balance updates
 
-Transaction history maintained in DynamoDB and local Stack & Queue
+- Transaction history maintained in DynamoDB and local Stack & Queue
 
-PIN security with SHA-256 hashing
+- PIN security with SHA-256 hashing
 
-Forgot password and password validation for Admin and Customer
+- Forgot password and password validation for Admin and Customer
 
-Admin operations: insert, update, delete customers
+- Admin operations: insert, update, delete customers
 
-Unit tests with JUnit 5 and Mockito (no AWS required)
+- Unit tests with JUnit 5 and Mockito (no AWS required)
 
-Built with Maven
+- Built with Maven
 
 # Technologies Used #
 
 ## Component	Technology ##
 
-Language	Java
+- Language	Java
 
-IDE	IntelliJ IDEA
+- IDE	IntelliJ IDEA
 
-Database	AWS DynamoDB
+- Database	AWS DynamoDB
 
-Build Tool	Maven
+- Build Tool	Maven
 
-Version Control	Git, GitHub
+- Version Control	Git, GitHub
 
-Testing	JUnit / Cucumber
+- Testing	JUnit 5, Mockito
 
-DevOps	 Jenkins
+- DevOps	 Jenkins
 
-Networking	Java Socket Programming
+- Networking	Java Socket Programming
 
+## Repository Layout ##
+
+BankingTransactionSystem/
+│
+├── pom.xml                     # Maven project file
+├── README.md                   # Project description, setup instructions, features
+│   
+│
+├── resources/                  # Static JSON files for initial data
+│   ├── account.json
+│   ├── admin.json
+│   └── customer.json
+│
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │      └── org/example/
+│   │          ├── BankingSystem.java           # Main entry point
+│   │          ├── CustomerService.java        # Customer operations
+│   │          ├── AccountService.java         # Deposit/withdraw/transfer logic
+│   │          ├── AdminService.java           # Admin operations
+│   │          ├── TransactionStackQueue.java  # Stack & Queue for transactions
+│   │          ├── PinHasher.java              # SHA-256 hashing for PIN
+│   │          └── DynamoDbClientProvider.java # Singleton DynamoDB client
+│   │   
+│   │   
+│   │
+│   └── test/
+│       └── java/
+│           └── org/example/
+│               └── AllTests.java              # Unit tests with JUnit 5 & Mockito
+│
+└── target/                      # Maven build output
